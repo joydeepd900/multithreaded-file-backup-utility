@@ -142,4 +142,4 @@ com.backuputility
 
 ### Terminal Test Run Output
 
-![Test Run Output](image.png)
+![Test Run Output](test_output.png)
