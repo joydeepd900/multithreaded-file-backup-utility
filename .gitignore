@@ -4,3 +4,6 @@ build/
 .idea/
 .vscode/
 .agent/
+apache-maven-*/
+*.zip
+test-run/
