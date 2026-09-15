@@ -89,11 +89,13 @@ structure.
 - The pool is shut down gracefully with `shutdown()` +
   `awaitTermination(...)` after all tasks return.
 
-## 6. Data flow
+## 6. Data flow & sequence diagram
 
-See the sequence diagram shared separately: `BackupApp` → `FileScanner`
-(catalog) → `BackupEngine` (parallel `BackupTask`s, each logging through
-`BackupLogger`) → `ReportGenerator` (summary).
+The sequence diagram below illustrates the end-to-end execution flow, thread pool parallelism, fault isolation, and logging:
+
+![Backup Utility Sequence Diagram](./backup_utility_sequence_diagram.png)
+
+Summary flow: `BackupApp` → `FileScanner` (catalog) → `BackupEngine` (parallel `BackupTask`s, each logging through `BackupLogger`) → `ReportGenerator` (summary).
 
 ## 7. Error handling strategy
 
