@@ -91,9 +91,7 @@ structure.
 
 ## 6. Data flow & sequence diagram
 
-The sequence diagram below illustrates the end-to-end execution flow, thread pool parallelism, fault isolation, and logging:
-
-![Backup Utility Sequence Diagram](./backup_utility_sequence_diagram.png)
+See [`diagrams.md`](./diagrams.md) for the complete sequence diagram, class diagram, and architecture diagrams.
 
 Summary flow: `BackupApp` → `FileScanner` (catalog) → `BackupEngine` (parallel `BackupTask`s, each logging through `BackupLogger`) → `ReportGenerator` (summary).
 

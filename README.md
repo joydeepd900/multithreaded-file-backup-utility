@@ -132,14 +132,8 @@ com.backuputility
 - [`statement.md`](./statement.md) — problem statement, scope, and target users
 - [`architecture.md`](./ProjectDocs/architecture.md) — module design, class responsibilities, concurrency model
 - [`PRD.md`](./ProjectDocs/PRD.md) — full functional and non-functional requirements
-- [`backup_utility_sequence_diagram.png`](./ProjectDocs/backup_utility_sequence_diagram.png) — execution flow & concurrency sequence diagram
+- [`diagrams.md`](./ProjectDocs/diagrams.md) — system architecture, class, sequence, use case, and workflow diagrams
 
 ## Screenshots
-
-### Execution Flow Sequence Diagram
-
-![Backup Utility Sequence Diagram](./ProjectDocs/backup_utility_sequence_diagram.png)
-
-### Terminal Test Run Output
 
 ![Test Run Output](test_output.png)
