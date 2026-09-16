@@ -165,10 +165,6 @@ sequenceDiagram
 
 ## 4. Use case diagram
 
-Mermaid has no dedicated use-case diagram type, so this uses flowchart
-syntax: stadium-shaped nodes stand in for use-case ovals, and a subgraph
-stands in for the system boundary.
-
 ```mermaid
 flowchart LR
     User(["User"])
